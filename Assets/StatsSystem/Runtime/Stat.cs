@@ -1,4 +1,8 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace StatsSystem
 {
@@ -7,12 +11,14 @@ namespace StatsSystem
         protected StatDefinition _definition;
         protected int _value;
         public int Value => _value;
-        public virtual int BaseValue => _definition.baseValue;
+        public virtual int BaseValue => _definition.BaseValue;
         public event Action ValueChanged;
+        protected List<StatModifier> _modifiers = new List<StatModifier>();
 
         public Stat(StatDefinition definition)
         {
             _definition = definition;
+            CalculateValue();
         }
 
         public void AddModifier(StatModifier modifier)
@@ -23,27 +29,22 @@ namespace StatsSystem
 
         public void RemoveModifierFromSource(Object source)
         {
-            _modifiers = _modifiers.Where(m => m.source.GetInstanceID() != source.GetInstanceID()).ToList();
+            _modifiers = _modifiers.Where(m => m.Source.GetInstanceID() != source.GetInstanceID()).ToList();
             CalculateValue();
         }
 
-        internal void CalculateValue()
+        protected void CalculateValue()
         {
             int newValue = BaseValue;
 
-            if (_definition.formula != null && _definition.formula.rootNode != null)
-            {
-                newValue += Mathf.RoundToInt(_definition.formula.rootNode.value);
-            }
-
-            _modifiers.Sort((x, y) => x.type.CompareTo(y.type));
+            _modifiers.Sort((x, y) => x.Type.CompareTo(y.Type));
 
             for (int i = 0; i < _modifiers.Count; i++)
             {
                 StatModifier modifier = _modifiers[i];
                 if (modifier.Type == ModifierOperationType.Additive)
                 {
-                    newValue += modifier.magnitude;
+                    newValue += modifier.Magnitude;
                 }
                 else if (modifier.Type == ModifierOperationType.Multiplier)
                 {
@@ -51,9 +52,9 @@ namespace StatsSystem
                 }
             }
 
-            if (_definition.MaxValue >= 0)
+            if (_definition.Cap >= 0)
             {
-                newValue = Mathf.Min(newValue, _definition.MaxValue);
+                newValue = Mathf.Min(newValue, _definition.Cap);
             }
 
             if (_value != newValue)

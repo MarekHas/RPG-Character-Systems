@@ -6,5 +6,4 @@ namespace StatsSystem
         Multiplier,
         Override
     }
-
 }
