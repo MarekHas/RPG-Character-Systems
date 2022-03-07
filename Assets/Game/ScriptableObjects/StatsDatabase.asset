@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c746a258de95b6746bfc2594e08a1aca, type: 3}
-  m_Name: New Item
+  m_Name: Strength
   m_EditorClassIdentifier: 
-  _baseValue: 0
+  _baseValue: 1
   _cap: -1
 --- !u!114 &-2335399619125673843
 MonoBehaviour:
@@ -44,7 +44,8 @@ MonoBehaviour:
   - {fileID: -2335399619125673843}
   Attributes:
   - {fileID: 7647564750449083324}
-  PrimaryStats: []
+  PrimaryStats:
+  - {fileID: -4539102721540359954}
 --- !u!114 &7647564750449083324
 MonoBehaviour:
   m_ObjectHideFlags: 1

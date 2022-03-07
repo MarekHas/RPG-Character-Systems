@@ -1,0 +1,6 @@
+GridBackground {
+    --grid-background-color: rgb(60, 60, 60);
+    --line-color: rgba(183, 186, 182, 0.2);
+    --thick-line-color: rgba(183, 186, 182, 0.2);
+    --spacing: 15;
+}
