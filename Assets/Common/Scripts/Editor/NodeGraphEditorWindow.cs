@@ -16,8 +16,8 @@ namespace Common.Editor
         private NodeGraph _nodeGraph;
         private NodeGraphView _nodeGraphView;
         private VisualElement _leftPanel;
-        private Texture2D m_Icon;
-        private UnityEditor.Editor m_Editor;
+        private Texture2D _icon;
+        private UnityEditor.Editor _editor;
 
         public static void ShowWindow(NodeGraph nodeGraph)
         {
@@ -59,17 +59,18 @@ namespace Common.Editor
         private void OnNodeSelected(NodeView nodeView)
         {
             _leftPanel.Clear();
-            DestroyImmediate(m_Editor);
-            m_Editor = UnityEditor.Editor.CreateEditor(nodeView.node);
+            DestroyImmediate(_editor);
+            _editor = UnityEditor.Editor.CreateEditor(nodeView.Node);
             IMGUIContainer container = new IMGUIContainer(() =>
             {
-                if (m_Editor && m_Editor.target)
+                if (_editor && _editor.target)
                 {
-                    m_Editor.OnInspectorGUI();
+                    _editor.OnInspectorGUI();
                 }
             });
             _leftPanel.Add(container);
         }
+
         private void OnRequestNodeCreation(NodeCreationContext context)
         {
             SearchWindow.Open(new SearchWindowContext(context.screenMousePosition), this);
@@ -77,10 +78,9 @@ namespace Common.Editor
 
         private void OnEnable()
         {
-            // Transparent icon to trick search window into indenting items
-            m_Icon = new Texture2D(1, 1);
-            m_Icon.SetPixel(0, 0, new Color(0, 0, 0, 0));
-            m_Icon.Apply();
+            _icon = new Texture2D(1, 1);
+            _icon.SetPixel(0, 0, new Color(0, 0, 0, 0));
+            _icon.Apply();
         }
         private void OnSelectionChange()
         {
@@ -122,11 +122,8 @@ namespace Common.Editor
                 }
             }
 
-            //* Build up the data structure needed by SearchWindow.
-            // `groups` contains the current group path we're in.
             var groups = new List<string>();
 
-            // First item in the tree is the title of the window.
             var tree = new List<SearchTreeEntry>
             {
                 new SearchTreeGroupEntry(new GUIContent("Create Node"), 0),
@@ -134,33 +131,24 @@ namespace Common.Editor
 
             foreach (var nodeEntry in nodeEntries)
             {
-                // `createIndex` represents from where we should add new group entries from the current entry's group path.
                 var createIndex = int.MaxValue;
 
-                // Compare the group path of the current entry to the current group path.
                 for (var i = 0; i < nodeEntry.title.Length - 1; i++)
                 {
                     var group = nodeEntry.title[i];
                     if (i >= groups.Count)
                     {
-                        // The current group path matches a prefix of the current entry's group path, so we add the
-                        // rest of the group path from the currrent entry.
                         createIndex = i;
                         break;
                     }
                     if (groups[i] != group)
                     {
-                        // A prefix of the current group path matches a prefix of the current entry's group path,
-                        // so we remove everyfrom from the point where it doesn't match anymore, and then add the rest
-                        // of the group path from the current entry.
                         groups.RemoveRange(i, groups.Count - i);
                         createIndex = i;
                         break;
                     }
                 }
 
-                // Create new group entries as needed.
-                // If we don't need to modify the group path, `createIndex` will be `int.MaxValue` and thus the loop won't run.
                 for (var i = createIndex; i < nodeEntry.title.Length - 1; i++)
                 {
                     var group = nodeEntry.title[i];
@@ -168,8 +156,7 @@ namespace Common.Editor
                     tree.Add(new SearchTreeGroupEntry(new GUIContent(group)) { level = i + 1 });
                 }
 
-                // Finally, add the actual entry.
-                tree.Add(new SearchTreeEntry(new GUIContent(nodeEntry.title.Last(), m_Icon)) { level = nodeEntry.title.Length, userData = nodeEntry });
+                tree.Add(new SearchTreeEntry(new GUIContent(nodeEntry.title.Last(), _icon)) { level = nodeEntry.title.Length, userData = nodeEntry });
             }
 
             return tree;
@@ -179,16 +166,20 @@ namespace Common.Editor
         {
             var nodeEntry = (NodeEntry)entry.userData;
             var nodeView = nodeEntry.nodeView;
-            nodeView.node.name = nodeEntry.title[nodeEntry.title.Length - 1];
+            nodeView.Node.name = nodeEntry.title[nodeEntry.title.Length - 1];
+            
             Vector2 worldMousePosition = context.screenMousePosition - position.position;
             Vector2 mousePosition = _nodeGraphView.contentViewContainer.WorldToLocal(worldMousePosition);
-            nodeView.node.Guid = GUID.Generate().ToString();
-            nodeView.node.Position = mousePosition;
-            nodeView.viewDataKey = nodeView.node.Guid;
+            
+            nodeView.Node.Guid = GUID.Generate().ToString();
+            nodeView.Node.Position = mousePosition;
+            nodeView.viewDataKey = nodeView.Node.Guid;
             nodeView.style.left = mousePosition.x;
             nodeView.style.top = mousePosition.y;
-            _nodeGraph.AddNode(nodeView.node);
+            
+            _nodeGraph.AddNode(nodeView.Node);
             _nodeGraphView.AddNodeView(nodeView);
+            
             return true;
         }
     }
