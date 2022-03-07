@@ -1,0 +1,17 @@
+{
+    "name": "StatsSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2da895ff1b9494c4aa10c84d203b3902",
+        "GUID:1c95f6aa929e31c4eb15cd8c54ce84b3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
