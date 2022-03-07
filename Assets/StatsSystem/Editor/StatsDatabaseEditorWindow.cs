@@ -5,17 +5,10 @@ using UnityEngine.UIElements;
 
 namespace StatsSystem.Editor
 {
-    //var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/StatsSystem/Editor/StatsDatabaseEditorWindow.uxml");
-    //VisualElement labelFromUXML = visualTree.Instantiate();
-    //root.Add(labelFromUXML);
-
-    //        // A stylesheet can be added to a VisualElement.
-    //        // The style will be applied to the VisualElement and all of its children.
-    //        var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/StatsSystem/Editor/StatsDatabaseEditorWindow.uss");
     public class StatsDatabaseEditorWindow : EditorWindow
     {
         private StatsDatabase _statsDatabase;
-        private StatsCollectionEditor m_Current;
+        private StatsCollectionEditor _current;
 
         [MenuItem("Window/StatsSystem/StatDatabase")]
         public static void ShowWindow()
@@ -58,9 +51,9 @@ namespace StatsSystem.Editor
             Button statsTab = root.Q<Button>("StatsTab");
             statsTab.clicked += () =>
             {
-                m_Current.style.display = DisplayStyle.None;
+                _current.style.display = DisplayStyle.None;
                 stats.style.display = DisplayStyle.Flex;
-                m_Current = stats;
+                _current = stats;
             };
 
             StatsCollectionEditor primaryStats = root.Q<StatsCollectionEditor>("PrimaryStats");
@@ -68,9 +61,9 @@ namespace StatsSystem.Editor
             Button primaryStatsTab = root.Q<Button>("PrimaryStatsTab");
             primaryStatsTab.clicked += () =>
             {
-                m_Current.style.display = DisplayStyle.None;
+                _current.style.display = DisplayStyle.None;
                 primaryStats.style.display = DisplayStyle.Flex;
-                m_Current = primaryStats;
+                _current = primaryStats;
             };
 
             StatsCollectionEditor attributes = root.Q<StatsCollectionEditor>("Attributes");
@@ -78,12 +71,12 @@ namespace StatsSystem.Editor
             Button attributesTab = root.Q<Button>("AttributesTab");
             attributesTab.clicked += () =>
             {
-                m_Current.style.display = DisplayStyle.None;
+                _current.style.display = DisplayStyle.None;
                 attributes.style.display = DisplayStyle.Flex;
-                m_Current = attributes;
+                _current = attributes;
             };
 
-            m_Current = stats;
+            _current = stats;
         }
     }
 }
