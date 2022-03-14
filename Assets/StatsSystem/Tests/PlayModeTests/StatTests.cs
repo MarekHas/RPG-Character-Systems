@@ -20,7 +20,7 @@ namespace StatsSystem.Tests
         {
             yield return null;
             StatsController statController = GameObject.FindObjectOfType<StatsController>();
-            Stat physicalAttack = statController.Stats["TestPhysicalAttack"];
+            Stat physicalAttack = statController.Stats["PhysicalAttack"];
             
             Assert.AreEqual(0, physicalAttack.Value);
 
@@ -38,7 +38,7 @@ namespace StatsSystem.Tests
         {
             yield return null;
             StatsController statController = GameObject.FindObjectOfType<StatsController>();
-            Stat attackSpeed = statController.Stats["TestAttackSpeed"];
+            Stat attackSpeed = statController.Stats["AttackSpeed"];
 
             Assert.AreEqual(1, attackSpeed.Value);
             
@@ -50,5 +50,19 @@ namespace StatsSystem.Tests
             
             Assert.AreEqual(3, attackSpeed.Value);
         }
+
+        [UnityTest]
+        public IEnumerator Stat_WhenStrengthIncreased_UpdatePhysicalAttack()
+        {
+            yield return null;
+            StatsController statController = GameObject.FindObjectOfType<StatsController>();
+            PrimaryStat strength = statController.Stats["Strength"] as PrimaryStat;
+            Stat physicalAttack = statController.Stats["PhysicalAttack"];
+            Assert.AreEqual(1, strength.Value);
+            Assert.AreEqual(3, physicalAttack.Value);
+            strength.Add(3);
+            Assert.AreEqual(12, physicalAttack.Value);
+        }
+
     }
 }

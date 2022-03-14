@@ -22,7 +22,7 @@ namespace StatsSystem.Tests
         {
             yield return null;
             StatsController statController = GameObject.FindObjectOfType<StatsController>();
-            Attribute health = statController.Stats["TestHealth"] as Attribute;
+            Attribute health = statController.Stats["Health"] as Attribute;
             
             Assert.AreEqual(100, health.CurrentValue);
             Assert.AreEqual(100, health.Value);
@@ -42,7 +42,7 @@ namespace StatsSystem.Tests
         {
             yield return null;
             StatsController statController = GameObject.FindObjectOfType<StatsController>();
-            Attribute health = statController.Stats["TestHealth"] as Attribute;
+            Attribute health = statController.Stats["Health"] as Attribute;
             Assert.AreEqual(100, health.CurrentValue);
             health.ApplyModifier(new StatModifier
             {

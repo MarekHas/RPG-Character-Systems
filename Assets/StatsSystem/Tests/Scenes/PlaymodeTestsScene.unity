@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 537474515}
+  - component: {fileID: 537474517}
   - component: {fileID: 537474516}
   m_Layer: 0
   m_Name: Player
@@ -164,7 +165,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 537474514}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53aa03a9e0b0eed4ea9bb0d3826459c7, type: 3}
+  m_Script: {fileID: 11500000, guid: 155a6192822c09942929e68c3935f91a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Level: 1
+  m_CurrentExperience: 0
+  m_RequiredExperienceFormula: {fileID: 11400000, guid: ed5dfacea9b4d4b45877179a689d9eb4, type: 2}
+--- !u!114 &537474517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537474514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb1000d83df40d4aa3e9221ba9ba19e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _statDatabase: {fileID: 11400000, guid: 51cd5ee2bbe17ef4ab09caa2edcedd19, type: 2}

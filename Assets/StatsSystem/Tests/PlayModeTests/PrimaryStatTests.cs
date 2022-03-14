@@ -20,7 +20,7 @@ namespace StatsSystem.Tests
         {
             yield return null;
             StatsController statController = GameObject.FindObjectOfType<StatsController>();
-            PrimaryStat strength = statController.Stats["TestStrength"] as PrimaryStat;
+            PrimaryStat strength = statController.Stats["Strength"] as PrimaryStat;
             
             Assert.AreEqual(1, strength.Value);
             strength.Add(1);
