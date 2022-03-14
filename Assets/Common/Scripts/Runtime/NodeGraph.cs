@@ -11,6 +11,21 @@ namespace Common.Runtime
         public FunctionNode RootNode;
         public List<FunctionNode> Nodes = new List<FunctionNode>();
 
+        public List<T> FindNodesOfType<T>()
+        {
+            List<T> nodesOfType = new List<T>();
+
+            foreach (FunctionNode node in Nodes)
+            {
+                if (node is T nodeOfType)
+                {
+                    nodesOfType.Add(nodeOfType);
+                }
+            }
+
+            return nodesOfType;
+        }
+
         public void AddNode(FunctionNode node)
         {
             Nodes.Add(node);

@@ -9,15 +9,22 @@ namespace StatsSystem
     public class Stat
     {
         protected StatDefinition _definition;
+        protected StatsController _controller;
+        public StatDefinition Definition => _definition;
         protected int _value;
         public int Value => _value;
         public virtual int BaseValue => _definition.BaseValue;
         public event Action ValueChanged;
         protected List<StatModifier> _modifiers = new List<StatModifier>();
 
-        public Stat(StatDefinition definition)
+        public Stat(StatDefinition definition, StatsController controller)
         {
             _definition = definition;
+            _controller = controller;
+        }
+
+        public virtual void Initialize()
+        {
             CalculateValue();
         }
 
@@ -33,11 +40,16 @@ namespace StatsSystem
             CalculateValue();
         }
 
-        protected void CalculateValue()
+        internal void CalculateValue()
         {
             int newValue = BaseValue;
 
             _modifiers.Sort((x, y) => x.Type.CompareTo(y.Type));
+
+            if (_definition.Formula != null && _definition.Formula.RootNode != null)
+            {
+                newValue += Mathf.RoundToInt(_definition.Formula.RootNode.Value);
+            }
 
             for (int i = 0; i < _modifiers.Count; i++)
             {

@@ -10,8 +10,13 @@ namespace StatsSystem
         public event Action CurrentValueChanged;
         public event Action<StatModifier> AppliedModifier;
 
-        public Attribute(StatDefinition definition) : base(definition)
+        public Attribute(StatDefinition definition, StatsController controller) : base(definition, controller)
         {
+        }
+
+        public override void Initialize()
+        {
+            base.Initialize();
             _currentValue = Value;
         }
 
