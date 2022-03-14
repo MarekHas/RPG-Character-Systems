@@ -1,0 +1,18 @@
+{
+    "name": "LevelUpSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:8b58fa12224a0724eb1b93bd61525889",
+        "GUID:1c95f6aa929e31c4eb15cd8c54ce84b3",
+        "GUID:993699214c9c59c41bca185fa3a82eb2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
