@@ -1,0 +1,11 @@
+#health #value {
+    color: rgb(215, 100, 70);
+}
+
+#mana #value {
+    color: rgb(70, 145, 185);
+}
+
+#experience #value {
+    color: rgb(255, 246, 45);
+}

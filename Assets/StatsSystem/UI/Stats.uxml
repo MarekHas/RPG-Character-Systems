@@ -1,0 +1,108 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/StatsSystem/UI/Stats.uss?fileID=7433441132597879392&amp;guid=208ddb70f177b0842a1699155b9264d0&amp;type=3#Stats" />
+    <ui:VisualElement name="panel" style="width: 25%; height: auto; padding-left: 1%; padding-right: 1%; padding-top: 1%; padding-bottom: 1%; position: absolute; -unity-background-image-tint-color: rgb(0, 0, 0); background-color: rgb(48, 48, 48); -unity-text-outline-color: rgb(233, 233, 233); color: rgb(204, 204, 204);">
+        <ui:VisualElement name="level" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0);">
+            <ui:Label text="Level : " display-tooltip-when-elided="true" name="label" />
+            <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+        </ui:VisualElement>
+        <ui:VisualElement name="experience" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+            <ui:Label text="Experience : " display-tooltip-when-elided="true" name="label" />
+            <ui:Label text="0/100" display-tooltip-when-elided="true" name="value" />
+        </ui:VisualElement>
+        <ui:VisualElement name="attributes">
+            <ui:VisualElement name="health" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Health : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="100/100" display-tooltip-when-elided="true" name="value" style="color: rgba(255, 0, 4, 255);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="mana" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Mana : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="100/100" display-tooltip-when-elided="true" name="value" style="color: rgba(0, 219, 255, 255);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="separator" style="height: 3%;" />
+        <ui:VisualElement name="primaryStats">
+            <ui:VisualElement name="strength" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Strength : " display-tooltip-when-elided="true" name="label" />
+                <ui:VisualElement name="content" style="flex-direction: row;">
+                    <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="add" style="flex-direction: column; color: rgb(60, 60, 60); font-size: 24px; -unity-font-style: bold; width: 25px; height: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="charisma" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Charisma: " display-tooltip-when-elided="true" name="label" />
+                <ui:VisualElement name="content" style="flex-direction: row;">
+                    <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="add" style="flex-direction: column; color: rgb(60, 60, 60); font-size: 24px; -unity-font-style: bold; width: 25px; height: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="wisdom" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Wisdom : " display-tooltip-when-elided="true" name="label" />
+                <ui:VisualElement name="content" style="flex-direction: row;">
+                    <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="add" style="flex-direction: column; color: rgb(60, 60, 60); font-size: 24px; -unity-font-style: bold; width: 25px; height: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="intelligence" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Intelligence: " display-tooltip-when-elided="true" name="label" />
+                <ui:VisualElement name="content" style="flex-direction: row;">
+                    <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="add" style="flex-direction: column; color: rgb(60, 60, 60); font-size: 24px; -unity-font-style: bold; width: 25px; height: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="dexterity" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Dexterity : " display-tooltip-when-elided="true" name="label" />
+                <ui:VisualElement name="content" style="flex-direction: row;">
+                    <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="add" style="flex-direction: column; color: rgb(60, 60, 60); font-size: 24px; -unity-font-style: bold; width: 25px; height: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="constitution" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Constitution : " display-tooltip-when-elided="true" name="label" />
+                <ui:VisualElement name="content" style="flex-direction: row;">
+                    <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+                    <ui:Button text="+" display-tooltip-when-elided="true" name="add" style="flex-direction: column; color: rgb(60, 60, 60); font-size: 24px; -unity-font-style: bold; width: 25px; height: 25px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="separator" style="height: 3%;" />
+        <ui:VisualElement name="stats">
+            <ui:VisualElement name="physicalAttack" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Physcial Attack : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+            </ui:VisualElement>
+            <ui:VisualElement name="magicalAttack" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Magic Attack : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+            </ui:VisualElement>
+            <ui:VisualElement name="physicalDefense" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Physical Defence : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+            </ui:VisualElement>
+            <ui:VisualElement name="magicalDefense" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Magic Defence : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+            </ui:VisualElement>
+            <ui:VisualElement name="moveSpeed" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Move Speed : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+            </ui:VisualElement>
+            <ui:VisualElement name="attackSpeed" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Attack Speed : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="value" />
+            </ui:VisualElement>
+            <ui:VisualElement name="criticalHitChance" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Critical Hit Chance : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="value" style="position: relative;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="criticalHitMultiplier" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+                <ui:Label text="Critical Hit Multiplier : " display-tooltip-when-elided="true" name="label" />
+                <ui:Label text="1" display-tooltip-when-elided="true" name="value" style="position: relative;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="separator" style="height: 3%;" />
+        <ui:VisualElement name="statPoints" style="flex-direction: row; -unity-background-image-tint-color: rgb(0, 0, 0); justify-content: space-between;">
+            <ui:Label text="Stat Points : " display-tooltip-when-elided="true" name="label" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="value" style="position: relative;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
