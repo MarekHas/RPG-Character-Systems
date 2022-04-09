@@ -12,5 +12,6 @@ namespace LevelUpSystem
         bool IsInitialized { get; }
         event Action Initialized;
         event Action WillUninitialize;
+        event Action Loaded;
     }
 }

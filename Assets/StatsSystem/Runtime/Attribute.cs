@@ -1,9 +1,10 @@
 using System;
 using UnityEngine;
+using SavingSystem.Scripts.Runtime;
 
 namespace StatsSystem
 {
-    public class Attribute : Stat
+    public class Attribute : Stat, ISavable
     {
         protected int _currentValue;
         public int CurrentValue => _currentValue;
@@ -43,8 +44,29 @@ namespace StatsSystem
             {
                 _currentValue = newValue;
                 CurrentValueChanged?.Invoke();
-                AppliedModifier?.Invoke(modifier);
             }
+            AppliedModifier?.Invoke(modifier);
         }
+
+        #region Save System
+
+        public object Data => new AttributeData
+        {
+            currentValue = CurrentValue
+        };
+        public void Load(object data)
+        {
+            AttributeData attributeData = (AttributeData)data;
+            _currentValue = attributeData.currentValue;
+            CurrentValueChanged?.Invoke();
+        }
+
+        [Serializable]
+        protected class AttributeData
+        {
+            public int currentValue;
+        }
+
+        #endregion
     }
 }

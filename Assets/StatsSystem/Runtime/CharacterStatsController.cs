@@ -82,11 +82,45 @@ namespace StatsSystem
                     List<LevelNode> levelNodes = currentStat.Definition.Formula.FindNodesOfType<LevelNode>();
                     foreach (LevelNode levelNode in levelNodes)
                     {
-                        levelNode.levelable = CanLevelUp;
+                        levelNode.CanLevelUP = CanLevelUp;
                         CanLevelUp.LevelChanged += currentStat.CalculateValue;
                     }
                 }
             }
         }
+
+        #region Stat System
+
+        public override object Data
+        {
+            get
+            {
+                return new PlayerStatControllerData(base.Data as StatControllerData)
+                {
+                    statPoints = _StatPoints
+                };
+            }
+        }
+
+        public override void Load(object data)
+        {
+            base.Load(data);
+            PlayerStatControllerData playerStatControllerData = (PlayerStatControllerData)data;
+            _StatPoints = playerStatControllerData.statPoints;
+            WtatPointsChanged?.Invoke();
+        }
+
+        [Serializable]
+        protected class PlayerStatControllerData : StatControllerData
+        {
+            public int statPoints;
+
+            public PlayerStatControllerData(StatControllerData statControllerData)
+            {
+                stats = statControllerData.stats;
+            }
+        }
+
+        #endregion
     }
 }
