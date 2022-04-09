@@ -6,6 +6,9 @@ using UnityEditor.VersionControl;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using Common.Runtime;
 
 namespace StatsSystem.Tests
 {
@@ -50,6 +53,29 @@ namespace StatsSystem.Tests
                 Type = ModifierOperationType.Additive
             });
             Assert.AreEqual(0, health.CurrentValue);
+        }
+
+        [UnityTest]
+        public IEnumerator Attribute_WhenTakeDamage_DamageReducedByDefense()
+        {
+            yield return null;
+            StatsController statController = GameObject.FindObjectOfType<StatsController>();
+            Health health = statController.Stats["Health"] as Health;
+            Assert.AreEqual(100, health.CurrentValue);
+            health.ApplyModifier(new HealthModifier
+            {
+                Magnitude = -10,
+                Type = ModifierOperationType.Additive,
+                IsCriticalHit = false,
+                DamageSource = ScriptableObject.CreateInstance<Ability>()
+            });
+            Assert.AreEqual(90, health.CurrentValue);
+        }
+
+        private class Ability : ScriptableObject, ITaggable
+        {
+            private List<string> m_Tags = new List<string>() { "physical" };
+            public ReadOnlyCollection<string> Tags => m_Tags.AsReadOnly();
         }
     }
 }

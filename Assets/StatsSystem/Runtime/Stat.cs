@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
-using Object = UnityEngine.Object;
 
 namespace StatsSystem
 {
@@ -34,9 +32,15 @@ namespace StatsSystem
             CalculateValue();
         }
 
-        public void RemoveModifierFromSource(Object source)
+        public void RemoveModifierFromSource(object source)
         {
-            _modifiers = _modifiers.Where(m => m.Source.GetInstanceID() != source.GetInstanceID()).ToList();
+            int number = _modifiers.RemoveAll(modifier => modifier.DamageSource == source);
+            
+            if (number > 0)
+            {
+                CalculateValue();
+            }
+            
             CalculateValue();
         }
 

@@ -73,7 +73,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6c20d36cafd6834d99ca70ece825991, type: 3}
   m_Name: ResultNode
   m_EditorClassIdentifier: 
-  Position: {x: -137.97235, y: 163.25099}
+  Position: {x: -116, y: 163}
   Guid: 2295f65d5fbc1cd429b54f2443c6e6ff
   child: {fileID: 5393646935289627804}
 --- !u!114 &11400000
