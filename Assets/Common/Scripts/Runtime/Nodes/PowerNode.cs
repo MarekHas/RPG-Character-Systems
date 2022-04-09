@@ -10,6 +10,12 @@ namespace Common.Nodes
         [HideInInspector] public FunctionNode exponent;
         [HideInInspector] public FunctionNode @base;
         public override float Value => (float)Math.Pow(@base.Value, exponent.Value);
+
+        public override float CalculateValue(GameObject source)
+        {
+            return (float)Math.Pow(@base.CalculateValue(source), exponent.CalculateValue(source));
+        }
+
         public override void RemoveChild(FunctionNode child, string portName)
         {
             if (portName.Equals("A"))

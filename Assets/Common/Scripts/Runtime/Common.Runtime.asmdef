@@ -1,7 +1,9 @@
 {
     "name": "Common.Runtime",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:bf1cf96b9466a5f438be43872014f51c"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

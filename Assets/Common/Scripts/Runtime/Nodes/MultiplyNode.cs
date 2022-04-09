@@ -9,6 +9,12 @@ namespace Common.Nodes
         [HideInInspector] public FunctionNode factorA;
         [HideInInspector] public FunctionNode factorB;
         public override float Value => factorA.Value * factorB.Value;
+
+        public override float CalculateValue(GameObject source)
+        {
+            return factorA.CalculateValue(source) * factorB.CalculateValue(source);
+        }
+
         public override void RemoveChild(FunctionNode child, string portName)
         {
             if (portName.Equals("A"))

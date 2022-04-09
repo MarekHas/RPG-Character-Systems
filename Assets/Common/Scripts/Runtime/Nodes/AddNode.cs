@@ -9,6 +9,12 @@ namespace Common.Nodes
         [HideInInspector] public FunctionNode addendA;
         [HideInInspector] public FunctionNode addendB;
         public override float Value => addendA.Value + addendB.Value;
+
+        public override float CalculateValue(GameObject source)
+        {
+            return addendA.CalculateValue(source) + addendB.CalculateValue(source);
+        }
+
         public override void RemoveChild(FunctionNode child, string portName)
         {
             if (portName.Equals("A"))

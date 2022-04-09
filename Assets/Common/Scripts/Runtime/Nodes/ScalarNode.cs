@@ -6,5 +6,10 @@ namespace Common.Nodes
     {
         [SerializeField] protected float _value;
         public override float Value => _value;
+
+        public override float CalculateValue(GameObject source)
+        {
+            return Value;
+        }
     }
 }

@@ -11,6 +11,11 @@ namespace Common.Runtime
         public FunctionNode RootNode;
         public List<FunctionNode> Nodes = new List<FunctionNode>();
 
+        public float CalculateValue(GameObject source)
+        {
+            return RootNode.CalculateValue(source);
+        }
+
         public List<T> FindNodesOfType<T>()
         {
             List<T> nodesOfType = new List<T>();

@@ -6,5 +6,10 @@ namespace Common.Nodes
     {
         [HideInInspector] public FunctionNode child;
         public override float Value => child.Value;
+
+        public override float CalculateValue(GameObject source)
+        {
+            return child.CalculateValue(source);
+        }
     }
 }
