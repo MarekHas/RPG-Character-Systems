@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3421604575796952779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c20d36cafd6834d99ca70ece825991, type: 3}
+  m_Name: ResultNode
+  m_EditorClassIdentifier: 
+  Position: {x: 161, y: 115.96}
+  Guid: 622b61f8c247bff499ff6296c02a39b5
+  child: {fileID: -357070254487905132}
+--- !u!114 &-357070254487905132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3600e284beba674aa8fe78f4b882af5, type: 3}
+  m_Name: Scalar
+  m_EditorClassIdentifier: 
+  Position: {x: 33, y: 180}
+  Guid: d636eb1a2de26e74b9c355691309c5a6
+  _value: 10
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9bdaf9705c3c4144b0166c9818b1007, type: 3}
+  m_Name: Heal_HealthModifier
+  m_EditorClassIdentifier: 
+  RootNode: {fileID: -3421604575796952779}
+  Nodes:
+  - {fileID: -3421604575796952779}
+  - {fileID: -357070254487905132}

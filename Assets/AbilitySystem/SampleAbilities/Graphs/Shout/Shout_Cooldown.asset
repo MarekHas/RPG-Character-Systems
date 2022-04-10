@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9bdaf9705c3c4144b0166c9818b1007, type: 3}
+  m_Name: Shout_Cooldown
+  m_EditorClassIdentifier: 
+  RootNode: {fileID: 505603621108495505}
+  Nodes:
+  - {fileID: 505603621108495505}
+  - {fileID: 92978546155496806}
+--- !u!114 &92978546155496806
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3600e284beba674aa8fe78f4b882af5, type: 3}
+  m_Name: Scalar
+  m_EditorClassIdentifier: 
+  Position: {x: 117, y: 170}
+  Guid: 353fdc5d43e8dc14f9740e11c75cc3b7
+  _value: 5
+--- !u!114 &505603621108495505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c20d36cafd6834d99ca70ece825991, type: 3}
+  m_Name: ResultNode
+  m_EditorClassIdentifier: 
+  Position: {x: 230.08, y: 128.56}
+  Guid: b487dfcbc11d78d44a2bd1ba9310a5dc
+  child: {fileID: 92978546155496806}

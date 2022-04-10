@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63c21fdeb556d64ab915e4c617b0712, type: 3}
+  m_Name: Heal_Effect
+  m_EditorClassIdentifier: 
+  _modifierDefinitions:
+  - {fileID: 5842628544692800191}
+  _conditionalEffects: []
+  _description: 
+  _specialEffectDefinition: {fileID: 11400000, guid: d8dcb4d5667e65b4a84623b57b509e24, type: 2}
+  _tags: []
+  _removeEffectsWithTags: []
+  _requiredTags: []
+  _forbiddenTags: []
+--- !u!114 &5842628544692800191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69dd4565c4858e245b9bd4ffe0f5f3db, type: 3}
+  m_Name: Modifier
+  m_EditorClassIdentifier: 
+  _formula: {fileID: 11400000, guid: 134f6a60e9b87644dbb577f30a8ddf64, type: 2}
+  _canCriticalHit: 0

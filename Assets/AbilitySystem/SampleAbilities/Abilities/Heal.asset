@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9087a9ad09dea147914658095a430be, type: 3}
+  m_Name: Heal
+  m_EditorClassIdentifier: 
+  _effectDefinitions:
+  - {fileID: 11400000, guid: e905a0b1f2434614ead45dd2c668cbf4, type: 2}
+  _icon: {fileID: 21300000, guid: a3c63152d7aeee54c93c2c41be8f170a, type: 3}
+  _maximumLevel: 20
+  _description: Heal
+  _name: Cast
+  _costDataEffect: {fileID: 11400000, guid: 7ad755de922b9bc49a425cd98cee6aff, type: 2}
+  _cooldownEffectData: {fileID: 11400000, guid: 705716be9e36c23498a0763b5d62865d, type: 2}

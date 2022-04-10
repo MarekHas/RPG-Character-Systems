@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3005562765010243294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 498e3f453454776498a0c9bbe885204f, type: 3}
+  m_Name: Modifier
+  m_EditorClassIdentifier: 
+  _formula: {fileID: 11400000, guid: 30b39115a58835143821f697e5ca79be, type: 2}
+  _statName: Mana
+  _type: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63c21fdeb556d64ab915e4c617b0712, type: 3}
+  m_Name: Shout_Cost
+  m_EditorClassIdentifier: 
+  _modifierDefinitions:
+  - {fileID: -3005562765010243294}
+  _conditionalEffects: []
+  _description: 
+  _specialEffectDefinition: {fileID: 0}
+  _tags: []
+  _removeEffectsWithTags: []
+  _requiredTags: []
+  _forbiddenTags: []
