@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/AbilitySystem/Resources/UI/Ability.uss?fileID=7433441132597879392&amp;guid=367f5be35753eb2468900b427a7d614f&amp;type=3#Ability" />
+    <ui:VisualElement name="ability__slot">
+        <ui:VisualElement name="ability__icon" />
+        <ui:VisualElement name="ability__content">
+            <ui:Label text="SpellNamePlaceholder" display-tooltip-when-elided="true" name="ability__title" />
+            <ui:Label text="0" display-tooltip-when-elided="true" name="ability__level" />
+            <ui:Button text="+" display-tooltip-when-elided="true" name="ability__addButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
