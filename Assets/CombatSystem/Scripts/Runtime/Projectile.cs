@@ -32,7 +32,7 @@ namespace CombatSystem.Scripts.Runtime
             {
                 VisualEffect collisionVisualEffect = Instantiate(_collisionEffect, transform.position, transform.rotation);
                 
-                collisionVisualEffect.finished += effect => Destroy(effect.gameObject);
+                collisionVisualEffect.Finished += effect => Destroy(effect.gameObject);
                 collisionVisualEffect.Play();
             }
             

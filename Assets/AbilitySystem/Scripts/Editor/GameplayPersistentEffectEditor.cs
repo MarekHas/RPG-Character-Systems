@@ -56,8 +56,8 @@ namespace AbilitySystem
         {
             VisualElement root = new VisualElement();
 
-            root.Add(new PropertyField(serializedObject.FindProperty("m_IsInfinite")) { name = "is-infinite" });
-            root.Add(new PropertyField(serializedObject.FindProperty("m_DurationFormula")) { name = "duration-formula" });
+            root.Add(new PropertyField(serializedObject.FindProperty("_isInfinite")) { name = "is-infinite" });
+            root.Add(new PropertyField(serializedObject.FindProperty("_durationFormula")) { name = "duration-formula" });
 
             return root;
         }
@@ -68,11 +68,11 @@ namespace AbilitySystem
 
             VisualElement periodFields = new VisualElement() { name = "period" };
 
-            periodFields.Add(new PropertyField(serializedObject.FindProperty("m_Period")));
-            periodFields.Add(new PropertyField(serializedObject.FindProperty("m_ExecutePeriodicEffectOnApplication")));
-            periodFields.Add(new PropertyField(serializedObject.FindProperty("m_PeriodicInhibitionPolicy")));
+            periodFields.Add(new PropertyField(serializedObject.FindProperty("_period")));
+            periodFields.Add(new PropertyField(serializedObject.FindProperty("_executePeriodicEffectOnApplication")));
+            periodFields.Add(new PropertyField(serializedObject.FindProperty("_periodicInhibitionPolicy")));
 
-            root.Add(new PropertyField(serializedObject.FindProperty("m_IsPeriodic")) { name = "is-periodic" });
+            root.Add(new PropertyField(serializedObject.FindProperty("_isPeriodic")) { name = "is-periodic" });
             root.Add(periodFields);
 
             return root;
@@ -82,7 +82,7 @@ namespace AbilitySystem
         {
             VisualElement root = base.CreateSpecialEffectFieldsGUI();
 
-            root.Add(new PropertyField(serializedObject.FindProperty("m_SpecialPersistentEffectDefinition")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_specialPersistentEffectDefinition")));
 
             return root;
         }
@@ -91,12 +91,12 @@ namespace AbilitySystem
         {
             VisualElement root = base.CreateTagFieldsGUI();
 
-            root.Add(new PropertyField(serializedObject.FindProperty("m_GrantedTags")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_GrantedApplicationImmunityTags")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_UninhibitedMustBePresentTags")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_UninhibitedMustBeAbsentTags")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_PersistMustBePresentTags")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_PersistMustBeAbsentTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_grantedTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_grantedApplicationImmunityTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_uninhibitedMustBePresentTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_uninhibitedMustBeAbsentTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_persistMustBePresentTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_persistMustBeAbsentTags")));
 
             return root;
         }

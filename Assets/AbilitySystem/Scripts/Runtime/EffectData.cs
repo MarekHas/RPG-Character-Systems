@@ -9,7 +9,7 @@ namespace AbilitySystem.Scripts.Runtime
     [CreateAssetMenu(fileName = "EffectData", menuName = "AbilitySystem/Effects/EffectData", order = 0)]
     public class EffectData : ScriptableObject
     {
-        [SerializeField] protected List<AbstractEffectStatModifierData> _modifierDefinitions;
+        [SerializeField] protected List<BaseStatModifierData> _modifierDefinitions;
         [SerializeField] private List<EffectData> _conditionalEffects;
         [SerializeField] private string _description;
         [SerializeField] private SpecialEffectData _specialEffectDefinition;
@@ -18,7 +18,7 @@ namespace AbilitySystem.Scripts.Runtime
         [SerializeField] private List<string> _requiredTags;
         [SerializeField] private List<string> _forbiddenTags;
 
-        public ReadOnlyCollection<AbstractEffectStatModifierData> ModifierDefinitions =>
+        public ReadOnlyCollection<BaseStatModifierData> ModifierDefinitions =>
             _modifierDefinitions.AsReadOnly();
         public ReadOnlyCollection<EffectData> ConditionalEffects => _conditionalEffects.AsReadOnly();
         public string Description => _description;

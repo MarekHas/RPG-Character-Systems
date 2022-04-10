@@ -30,11 +30,11 @@ namespace AbilitySystem
 
             StatsController statController = attacker.GetComponent<StatsController>();
 
-            foreach (AbstractEffectStatModifierData modifierDefinition in data.ModifierDefinitions)
+            foreach (BaseStatModifierData modifierDefinition in data.ModifierDefinitions)
             {
                 StatModifier statModifier;
 
-                if (modifierDefinition is DamageEffectData damageDefinition)
+                if (modifierDefinition is HealthModifierEffectData damageDefinition)
                 {
                     HealthModifier healthModifier = new HealthModifier
                     {

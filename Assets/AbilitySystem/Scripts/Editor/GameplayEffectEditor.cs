@@ -36,7 +36,7 @@ namespace AbilitySystem
             TextField description = new TextField
             {
                 label = "Description",
-                bindingPath = "m_Description",
+                bindingPath = "_description",
                 multiline = true
             };
             description.Bind(serializedObject);
@@ -49,7 +49,7 @@ namespace AbilitySystem
             VisualElement root = new VisualElement();
             ListView modifiers = new ListView
             {
-                bindingPath = "m_ModifierDefinitions",
+                bindingPath = "_modifierDefinitions",
                 virtualizationMethod = CollectionVirtualizationMethod.DynamicHeight,
                 reorderable = true,
                 showFoldoutHeader = true,
@@ -68,7 +68,7 @@ namespace AbilitySystem
 
             ListView listView = new ListView()
             {
-                bindingPath = "m_ConditionalEffects",
+                bindingPath = "_conditionalEffects",
                 virtualizationMethod = CollectionVirtualizationMethod.DynamicHeight,
                 reorderable = true,
                 showFoldoutHeader = true,
@@ -84,24 +84,24 @@ namespace AbilitySystem
         {
             VisualElement root = new VisualElement();
 
-            root.Add(new PropertyField(serializedObject.FindProperty("m_SpecialEffectDefinition")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_specialEffectDefinition")));
 
             return root;
         }
         protected virtual VisualElement CreateTagFieldsGUI()
         {
             VisualElement root = new VisualElement();
-            root.Add(new PropertyField(serializedObject.FindProperty("m_Tags")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_RemoveEffectsWithTags")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_ApplicationMustBePresentTags")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_ApplicationMustBeAbsentTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_tags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_removeEffectsWithTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_applicationMustBePresentTags")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_applicationMustBeAbsentTags")));
             return root;
         }
 
         private void AddButtonOnClicked()
         {
             Type[] types = AppDomain.CurrentDomain.GetAssemblies().SelectMany(assembly => assembly.GetTypes())
-                .Where(type => typeof(AbstractEffectStatModifierData).IsAssignableFrom(type) &&
+                .Where(type => typeof(BaseStatModifierData).IsAssignableFrom(type) &&
                                type.IsClass && !type.IsAbstract).ToArray();
             if (types.Length > 1)
             {
@@ -123,12 +123,12 @@ namespace AbilitySystem
 
         private void CreateItem(Type type)
         {
-            AbstractEffectStatModifierData item = ScriptableObject.CreateInstance(type) as AbstractEffectStatModifierData;
+            BaseStatModifierData item = ScriptableObject.CreateInstance(type) as BaseStatModifierData;
             item.name = "Modifier";
             AssetDatabase.AddObjectToAsset(item, target);
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
-            SerializedProperty modifiers = serializedObject.FindProperty("m_ModifierDefinitions"); 
+            SerializedProperty modifiers = serializedObject.FindProperty("_modifierDefinitions"); 
             modifiers.GetArrayElementAtIndex(modifiers.arraySize - 1).objectReferenceValue = item;
             serializedObject.ApplyModifiedProperties();
             EditorUtility.SetDirty(target);

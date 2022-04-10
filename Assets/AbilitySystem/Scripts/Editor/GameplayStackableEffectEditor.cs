@@ -35,12 +35,12 @@ namespace AbilitySystem
         {
             VisualElement root = new VisualElement();
 
-            root.Add(new PropertyField(serializedObject.FindProperty("m_DenyOverflowApplication")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_ClearStackOnOverflow")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_StackLimitCount")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_StackDurationRefreshPolicy")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_StackPeriodResetPolicy")));
-            root.Add(new PropertyField(serializedObject.FindProperty("m_StackExpirationPolicy")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_denyOverflowApplication")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_clearStackOnOverflow")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_stackLimitCount")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_stackDurationRefreshPolicy")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_stackPeriodResetPolicy")));
+            root.Add(new PropertyField(serializedObject.FindProperty("_stackExpirationPolicy")));
 
             return root;
         }
@@ -51,7 +51,7 @@ namespace AbilitySystem
 
             ListView overflowGameplayEffects = new ListView
             {
-                bindingPath = "m_OverflowEffects",
+                bindingPath = "_overflowEffects",
                 virtualizationMethod = CollectionVirtualizationMethod.DynamicHeight,
                 reorderable = true,
                 showFoldoutHeader = true,
