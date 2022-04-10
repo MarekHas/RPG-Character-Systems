@@ -38,10 +38,10 @@ namespace AbilitySystem
 
         private void OnEnable()
         {
-            _tagController.tagAdded += CheckOngoingTagRequirements;
-            _tagController.tagRemoved += CheckOngoingTagRequirements;
-            _tagController.tagAdded += CheckRemovalTagRequirements;
-            _tagController.tagRemoved += CheckRemovalTagRequirements;
+            _tagController.TagAdded += CheckOngoingTagRequirements;
+            _tagController.TagRemoved += CheckOngoingTagRequirements;
+            _tagController.TagAdded += CheckRemovalTagRequirements;
+            _tagController.TagRemoved += CheckRemovalTagRequirements;
             _statController.Initialized += OnStatControllerInitialized;
 
             if (_statController.IsInitialized)
@@ -51,10 +51,10 @@ namespace AbilitySystem
         }
         private void OnDisable()
         {
-            _tagController.tagAdded -= CheckOngoingTagRequirements;
-            _tagController.tagRemoved -= CheckOngoingTagRequirements;
-            _tagController.tagAdded -= CheckRemovalTagRequirements;
-            _tagController.tagRemoved -= CheckRemovalTagRequirements;
+            _tagController.TagAdded -= CheckOngoingTagRequirements;
+            _tagController.TagRemoved -= CheckOngoingTagRequirements;
+            _tagController.TagAdded -= CheckRemovalTagRequirements;
+            _tagController.TagRemoved -= CheckRemovalTagRequirements;
         }
         private void OnStatControllerInitialized()
         {

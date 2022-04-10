@@ -93,7 +93,7 @@ namespace CombatSystem.Scripts.Runtime
         private FloatingText OnCreate()
         {
             FloatingText floatingText = Instantiate(_floatingText);
-            floatingText.finished += _pool.Release;
+            floatingText.Finished += _pool.Release;
             return floatingText;
         }
     }

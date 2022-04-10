@@ -8,21 +8,21 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 2249
-    y: 302.5
-    width: 1206
-    height: 715
-  m_ShowMode: 4
-  m_Title:
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
+    x: 0
+    y: 0
+    width: 0
+    height: 6
+  m_ShowMode: 0
+  m_Title: 
+  m_RootView: {fileID: 8}
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
   m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -32,23 +32,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
-  m_Position:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 30
-    width: 1206
-    height: 665
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-  controlID: 119
+    y: 0
+    width: 0
+    height: 6
+  m_ShowMode: 0
+  m_Title: 
+  m_RootView: {fileID: 9}
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_Maximized: 0
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,24 +56,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children: []
-  m_Position:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
     serializedVersion: 2
-    x: 921
-    y: 0
-    width: 285
-    height: 665
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  m_Selected: 0
-  m_LastSelected: 0
+    x: 56
+    y: 110
+    width: 960
+    height: 981
+  m_ShowMode: 4
+  m_Title: Project
+  m_RootView: {fileID: 13}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -83,22 +80,22 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 228
-    height: 394
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+    y: 301
+    width: 235
+    height: 630
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -109,25 +106,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier:
-  m_Children: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 12}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 394
-    width: 921
-    height: 271
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 12}
-  m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 1
+    y: 0
+    width: 235
+    height: 931
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 92
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -136,22 +131,25 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 1206
-    height: 715
-  m_MinSize: {x: 875, y: 300}
-  m_MaxSize: {x: 10000, y: 10000}
+    y: 549
+    width: 450
+    height: 382
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 25}
+  m_Panes:
+  - {fileID: 25}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,21 +158,23 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 16}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 235
     y: 0
-    width: 1206
-    height: 30
-  m_MinSize: {x: 0, y: 0}
-  m_MaxSize: {x: 0, y: 0}
-  m_LoadedToolbars: []
-  m_LastLoadedLayoutName: Default
+    width: 450
+    height: 931
+  m_MinSize: {x: 100, y: 200}
+  m_MaxSize: {x: 8096, y: 16192}
+  vertical: 1
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -183,19 +183,21 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 695
-    width: 1206
-    height: 20
+    y: 0
+    width: 0
+    height: 0
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+  vertical: 0
+  controlID: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,23 +206,21 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 921
-    height: 665
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 92
+    width: 0
+    height: 0
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  vertical: 0
+  controlID: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -231,21 +231,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
+  - {fileID: 5}
+  - {fileID: 7}
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 921
-    height: 394
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+    y: 30
+    width: 960
+    height: 931
+  m_MinSize: {x: 300, y: 200}
+  m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 93
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,21 +257,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 228
+    x: 685
     y: 0
-    width: 693
-    height: 394
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+    width: 275
+    height: 931
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 21}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 16}
+  - {fileID: 21}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -282,133 +283,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
-  m_Pos:
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
-  m_ViewDataDictionary: {fileID: 0}
-  m_SearchFilter:
-    m_NameFilter:
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs:
-    m_SceneHandles:
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets
-    m_Globs: []
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: U:\layout
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4350000
-    m_LastClickedID: 13812
-    m_ExpandedIDs: 00000000f435000000ca9a3b
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name:
-      m_OriginalName:
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString:
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path:
-      m_Icon: {fileID: 0}
-      m_ResourceFile:
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs:
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4350000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name:
-      m_OriginalName:
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString:
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path:
-      m_Icon: {fileID: 0}
-      m_ResourceFile:
-  m_ListAreaState:
-    m_SelectedInstanceIDs:
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name:
-      m_OriginalName:
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path:
-      m_Icon: {fileID: 0}
-      m_ResourceFile:
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 207
+    x: 0
+    y: 0
+    width: 235
+    height: 301
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 22}
+  m_Selected: 0
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -418,35 +309,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
-  m_Pos:
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 14}
+  - {fileID: 10}
+  - {fileID: 15}
+  m_Position:
     serializedVersion: 2
-    x: 3170
-    y: 332.5
-    width: 284
-    height: 644
-  m_ViewDataDictionary: {fileID: 0}
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization:
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
-  m_AssetGUID:
-  m_InstanceID: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewWindow: {fileID: 0}
+    x: 0
+    y: 0
+    width: 960
+    height: 981
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -456,32 +337,1534 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
-  m_MinSize: {x: 200, y: 200}
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 960
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LastLoadedLayoutName: 
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 961
+    width: 960
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 450
+    height: 549
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 23}
+  m_Panes:
+  - {fileID: 23}
+  - {fileID: 24}
+  - {fileID: 17}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 332.5
-    width: 227
-    height: 373
+    x: 4307
+    y: 73
+    width: 904
+    height: 537
   m_ViewDataDictionary: {fileID: 0}
-  m_SceneHierarchy:
-    m_TreeViewState:
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: -3650875602487994987, guid: e9bb5a8229764824ab096265cc2f8f57, type: 2}
+    - {fileID: -8409270947713761448, guid: e044a6e63600847419ac0bb47a79d00d, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: e9bb5a8229764824ab096265cc2f8f57, type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: -3650875602487994987, guid: e9bb5a8229764824ab096265cc2f8f57, type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12141, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 300, y: 360}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Navigation
+    m_Image: {fileID: 1087843850482249999, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 5233
+    y: 73
+    width: 526
+    height: 926
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 4305
+    y: 542
+    width: 908
+    height: 457
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_Spl:
+    ID: 2845
+    splitterInitialOffset: 278
+    currentActiveSplitter: -1
+    realSizes:
+    - 210
+    - 177
+    relativeSizes:
+    - 0.5426357
+    - 0.45736432
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 387
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 19}
+    m_NewResultList:
+    - id: 1004
+      uniqueId: '[RPG-Character-Systems][suite]'
+      name: RPG-Character-Systems
+      fullName: RPG-Character-Systems
+      resultStatus: 0
+      duration: 0.3915935
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1003
+      uniqueId: '[AbilitySystem.Tests.dll][suite]'
+      name: AbilitySystem.Tests.dll
+      fullName: C:/Unity Projects/RPG-Character-Systems/Library/ScriptAssemblies/AbilitySystem.Tests.dll
+      resultStatus: 0
+      duration: 0.2810679
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[RPG-Character-Systems][suite]'
+    - id: 1004
+      uniqueId: AbilitySystem.Tests.dll/[AbilitySystem][suite]
+      name: AbilitySystem
+      fullName: AbilitySystem
+      resultStatus: 0
+      duration: 0.2642704
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[AbilitySystem.Tests.dll][suite]'
+    - id: 1033
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/[AbilitySystem.Tests][AbilitySystem.Tests][suite]
+      name: Tests
+      fullName: AbilitySystem.Tests
+      resultStatus: 0
+      duration: 0.2572
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1032
+      parentUniqueId: AbilitySystem.Tests.dll/[AbilitySystem][suite]
+    - id: 1001
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests][suite]
+      name: AbilitiesUITests
+      fullName: AbilitySystem.Tests.AbilitiesUITests
+      resultStatus: 0
+      duration: 0.2504547
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1033
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/[AbilitySystem.Tests][AbilitySystem.Tests][suite]
+    - id: 1005
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/AbilitiesUITests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenAbilityLevelChanged_UpdatesLevelText]
+      name: AbilitiesUI_WhenAbilityLevelChanged_UpdatesLevelText
+      fullName: AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenAbilityLevelChanged_UpdatesLevelText
+      resultStatus: 0
+      duration: 0.2047487
+      messages: "  String lengths are both 1. Strings differ at index 0.\r\n  Expected:
+        \"1\"\r\n  But was:  \"6\"\r\n  -----------^\r\n"
+      output: 
+      stacktrace: 'at AbilitySystem.Tests.AbilitiesUITests+<AbilitiesUI_WhenAbilityLevelChanged_UpdatesLevelText>d__11.MoveNext
+        () [0x000d0] in C:\Unity Projects\RPG-Character-Systems\Assets\AbilitySystem\Tests\Scripts\PlaymodeTests\AbilitiesUITests.cs:100
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\Unity Projects\RPG-Character-Systems\Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests][suite]
+    - id: 1003
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/AbilitiesUITests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenIncrementButtonClicked_DecrementsAbilityPoints]
+      name: AbilitiesUI_WhenIncrementButtonClicked_DecrementsAbilityPoints
+      fullName: AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenIncrementButtonClicked_DecrementsAbilityPoints
+      resultStatus: 0
+      duration: 0.0822305
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests][suite]
+    - id: 1002
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/AbilitiesUITests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenIncrementButtonClicked_IncrementsAbilityLevel]
+      name: AbilitiesUI_WhenIncrementButtonClicked_IncrementsAbilityLevel
+      fullName: AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenIncrementButtonClicked_IncrementsAbilityLevel
+      resultStatus: 0
+      duration: 0.0768288
+      messages: "  Expected: 0\r\n  But was:  5\r\n"
+      output: 
+      stacktrace: 'at AbilitySystem.Tests.AbilitiesUITests+<AbilitiesUI_WhenIncrementButtonClicked_IncrementsAbilityLevel>d__8.MoveNext
+        () [0x00037] in C:\Unity Projects\RPG-Character-Systems\Assets\AbilitySystem\Tests\Scripts\PlaymodeTests\AbilitiesUITests.cs:48
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\Unity Projects\RPG-Character-Systems\Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests][suite]
+    - id: 1007
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/AbilitiesUITests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenLevelUp_UpdatesAbilityPointsText]
+      name: AbilitiesUI_WhenLevelUp_UpdatesAbilityPointsText
+      fullName: AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenLevelUp_UpdatesAbilityPointsText
+      resultStatus: 0
+      duration: 0.0796782
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests][suite]
+    - id: 1006
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/AbilitiesUITests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenMaxLevelReached_DisablesIncrementButton]
+      name: AbilitiesUI_WhenMaxLevelReached_DisablesIncrementButton
+      fullName: AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenMaxLevelReached_DisablesIncrementButton
+      resultStatus: 0
+      duration: 0.085598
+      messages: "  Expected: 0\r\n  But was:  5\r\n"
+      output: 
+      stacktrace: 'at AbilitySystem.Tests.AbilitiesUITests+<AbilitiesUI_WhenMaxLevelReached_DisablesIncrementButton>d__12.MoveNext
+        () [0x0008c] in C:\Unity Projects\RPG-Character-Systems\Assets\AbilitySystem\Tests\Scripts\PlaymodeTests\AbilitiesUITests.cs:110
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in C:\Unity Projects\RPG-Character-Systems\Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests][suite]
+    - id: 1004
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/AbilitiesUITests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenNoAbilityPoints_DisablesIncrementButtons]
+      name: AbilitiesUI_WhenNoAbilityPoints_DisablesIncrementButtons
+      fullName: AbilitySystem.Tests.AbilitiesUITests.AbilitiesUI_WhenNoAbilityPoints_DisablesIncrementButtons
+      resultStatus: 0
+      duration: 0.0753306
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[AbilitySystem.Tests][AbilitySystem.Tests.AbilitiesUITests][suite]
+    - id: 1006
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[Scripts][suite]
+      name: Scripts
+      fullName: AbilitySystem.Tests.Scripts
+      resultStatus: 0
+      duration: 0.1522351
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/[Tests][suite]
+    - id: 1007
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime][suite]
+      name: Runtime
+      fullName: AbilitySystem.Tests.Scripts.Runtime
+      resultStatus: 0
+      duration: 0.1461756
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/[Scripts][suite]
+    - id: 1001
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests][suite]
+      name: AbilityControllerTests
+      fullName: AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests
+      resultStatus: 0
+      duration: 0.1379084
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime][suite]
+    - id: 1006
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/AbilityControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenAbilityOnCooldown_BlockAbilityActivation]
+      name: AbilityController_WhenAbilityOnCooldown_BlockAbilityActivation
+      fullName: AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenAbilityOnCooldown_BlockAbilityActivation
+      resultStatus: 0
+      duration: 2.0710354
+      messages: 
+      output: 'AbilityWithCooldown is on cooldown!
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests][suite]
+    - id: 1004
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/AbilityControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenActivateAbility_ApplyCostEffect]
+      name: AbilityController_WhenActivateAbility_ApplyCostEffect
+      fullName: AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenActivateAbility_ApplyCostEffect
+      resultStatus: 0
+      duration: 0.0839452
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests][suite]
+    - id: 1003
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/AbilityControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenActivateAbility_ApplyEffects]
+      name: AbilityController_WhenActivateAbility_ApplyEffects
+      fullName: AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenActivateAbility_ApplyEffects
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests][suite]
+    - id: 1005
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/AbilityControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenCannotSatisfyAbilityCost_BlockAbilityActivation]
+      name: AbilityController_WhenCannotSatisfyAbilityCost_BlockAbilityActivation
+      fullName: AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenCannotSatisfyAbilityCost_BlockAbilityActivation
+      resultStatus: 0
+      duration: 0.1120146
+      messages: 
+      output: 'Cost cannot satisfy costs!
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests][suite]
+    - id: 1007
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/AbilityControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenLevelUp_GainAbilityPoints]
+      name: AbilityController_WhenLevelUp_GainAbilityPoints
+      fullName: AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenLevelUp_GainAbilityPoints
+      resultStatus: 0
+      duration: 0.0933981
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests][suite]
+    - id: 1002
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/AbilityControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenStart_ApplyPassiveAbilities]
+      name: AbilityController_WhenStart_ApplyPassiveAbilities
+      fullName: AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests.AbilityController_WhenStart_ApplyPassiveAbilities
+      resultStatus: 0
+      duration: 0.0836752
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.AbilityControllerTests][suite]
+    - id: 1001
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+      name: GameplayEffectControllerTests
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests
+      resultStatus: 0
+      duration: 10.610839
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime][suite]
+    - id: 1015
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenApplied_ExecutePeriodicGameplayEffect]
+      name: GameplayEffectController_WhenApplied_ExecutePeriodicGameplayEffect
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenApplied_ExecutePeriodicGameplayEffect
+      resultStatus: 0
+      duration: 0.1035805
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1021
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenApplyStack_IncreaseStackCount]
+      name: GameplayEffectController_WhenApplyStack_IncreaseStackCount
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenApplyStack_IncreaseStackCount
+      resultStatus: 0
+      duration: 0.0448165
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1019
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenApplyStack_ResetDuration]
+      name: GameplayEffectController_WhenApplyStack_ResetDuration
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenApplyStack_ResetDuration
+      resultStatus: 0
+      duration: 1.0391848
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1020
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenApplyStack_ResetPeriod]
+      name: GameplayEffectController_WhenApplyStack_ResetPeriod
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenApplyStack_ResetPeriod
+      resultStatus: 0
+      duration: 1.023077
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1022
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenDurationReached_RemoveStackAndRefresh]
+      name: GameplayEffectController_WhenDurationReached_RemoveStackAndRefresh
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenDurationReached_RemoveStackAndRefresh
+      resultStatus: 0
+      duration: 3.021042
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1011
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenEffectApplied_AddGrantedTags]
+      name: GameplayEffectController_WhenEffectApplied_AddGrantedTags
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenEffectApplied_AddGrantedTags
+      resultStatus: 0
+      duration: 0.0212512
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1002
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenEffectApplied_ModifyAttribute]
+      name: GameplayEffectController_WhenEffectApplied_ModifyAttribute
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenEffectApplied_ModifyAttribute
+      resultStatus: 0
+      duration: 0.0207661
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1016
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenOverflow_AppliesOverflowEffects]
+      name: GameplayEffectController_WhenOverflow_AppliesOverflowEffects
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenOverflow_AppliesOverflowEffects
+      resultStatus: 0
+      duration: 0.0199915
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1017
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenOverflow_ClearsStack]
+      name: GameplayEffectController_WhenOverflow_ClearsStack
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenOverflow_ClearsStack
+      resultStatus: 0
+      duration: 0.024502
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1018
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenOverflow_DoNotApplyEffect]
+      name: GameplayEffectController_WhenOverflow_DoNotApplyEffect
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenOverflow_DoNotApplyEffect
+      resultStatus: 0
+      duration: 0.0271054
+      messages: 
+      output: 'Denied overflow application!
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1014
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenPeriodReached_ExecuteGameplayEffect]
+      name: GameplayEffectController_WhenPeriodReached_ExecuteGameplayEffect
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenPeriodReached_ExecuteGameplayEffect
+      resultStatus: 0
+      duration: 1.0226268
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1003
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenPersistentEffectApplied_AddStatModifier]
+      name: GameplayEffectController_WhenPersistentEffectApplied_AddStatModifier
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenPersistentEffectApplied_AddStatModifier
+      resultStatus: 0
+      duration: 0.0210221
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1012
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenPersistentEffectExpires_RemoveGrantedTags]
+      name: GameplayEffectController_WhenPersistentEffectExpires_RemoveGrantedTags
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenPersistentEffectExpires_RemoveGrantedTags
+      resultStatus: 0
+      duration: 1.0285281
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1004
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenPersistentEffectExpires_RemoveStatModifier]
+      name: GameplayEffectController_WhenPersistentEffectExpires_RemoveStatModifier
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenPersistentEffectExpires_RemoveStatModifier
+      resultStatus: 0
+      duration: 3.0214803
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1005
+      uniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/GameplayEffectControllerTests/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenStart_AppliesStartingEffects]
+      name: GameplayEffectController_WhenStart_AppliesStartingEffects
+      fullName: AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests.GameplayEffectController_WhenStart_AppliesStartingEffects
+      resultStatus: 0
+      duration: 0.0180554
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: AbilitySystem.Tests.dll/AbilitySystem/Tests/Scripts/Runtime/[AbilitySystem.Tests][AbilitySystem.Tests.Scripts.Runtime.GameplayEffectControllerTests][suite]
+    - id: 1003
+      uniqueId: '[LevelUpSystem.Tests.dll][suite]'
+      name: LevelUpSystem.Tests.dll
+      fullName: C:/Unity Projects/RPG-Character-Systems/Library/ScriptAssemblies/LevelUpSystem.Tests.dll
+      resultStatus: 0
+      duration: 0.1043662
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[RPG-Character-Systems][suite]'
+    - id: 1004
+      uniqueId: LevelUpSystem.Tests.dll/[LevelUpSystem][suite]
+      name: LevelUpSystem
+      fullName: LevelUpSystem
+      resultStatus: 0
+      duration: 0.0902834
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[LevelUpSystem.Tests.dll][suite]'
+    - id: 1005
+      uniqueId: LevelUpSystem.Tests.dll/LevelUpSystem/[LevelUpSystem.Tests][LevelUpSystem.Tests][suite]
+      name: Tests
+      fullName: LevelUpSystem.Tests
+      resultStatus: 0
+      duration: 0.0868514
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: LevelUpSystem.Tests.dll/[LevelUpSystem][suite]
+    - id: 1001
+      uniqueId: LevelUpSystem.Tests.dll/LevelUpSystem/Tests/[LevelUpSystem.Tests][LevelUpSystem.Tests.LevelControllerTests][suite]
+      name: LevelControllerTests
+      fullName: LevelUpSystem.Tests.LevelControllerTests
+      resultStatus: 0
+      duration: 0.0816315
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: LevelUpSystem.Tests.dll/LevelUpSystem/[LevelUpSystem.Tests][LevelUpSystem.Tests][suite]
+    - id: 1002
+      uniqueId: LevelUpSystem.Tests.dll/LevelUpSystem/Tests/LevelControllerTests/[LevelUpSystem.Tests][LevelUpSystem.Tests.LevelControllerTests.LevelController_WhenLevelUp_UpdateRequiredExperience]
+      name: LevelController_WhenLevelUp_UpdateRequiredExperience
+      fullName: LevelUpSystem.Tests.LevelControllerTests.LevelController_WhenLevelUp_UpdateRequiredExperience
+      resultStatus: 0
+      duration: 0.0541018
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NullReferenceException: Object reference not set to an instance of
+        an object
+
+'
+      stacktrace: 'LevelUpSystem.LevelUpController.Initialize () (at Assets/LevelUpSystem/Scripts/Runtime/LevelUpController.cs:56)
+
+        LevelUpSystem.LevelUpController.Awake
+        () (at Assets/LevelUpSystem/Scripts/Runtime/LevelUpController.cs:50)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: LevelUpSystem.Tests.dll/LevelUpSystem/Tests/[LevelUpSystem.Tests][LevelUpSystem.Tests.LevelControllerTests][suite]
+    - id: 1009
+      uniqueId: '[StatSystem.Tests.dll][suite]'
+      name: StatSystem.Tests.dll
+      fullName: C:/Unity Projects/RPG-Character-Systems/Library/ScriptAssemblies/StatSystem.Tests.dll
+      resultStatus: 0
+      duration: 0.3371791
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[RPG-Character-Systems][suite]'
+    - id: 1010
+      uniqueId: StatSystem.Tests.dll/[StatsSystem][suite]
+      name: StatsSystem
+      fullName: StatsSystem
+      resultStatus: 0
+      duration: 0.3262514
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: '[StatSystem.Tests.dll][suite]'
+    - id: 1011
+      uniqueId: StatSystem.Tests.dll/StatsSystem/[StatSystem.Tests][StatsSystem.Tests][suite]
+      name: Tests
+      fullName: StatsSystem.Tests
+      resultStatus: 0
+      duration: 0.3189476
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: StatSystem.Tests.dll/[StatsSystem][suite]
+    - id: 1001
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.AttributeTests][suite]
+      name: AttributeTests
+      fullName: StatsSystem.Tests.AttributeTests
+      resultStatus: 0
+      duration: 0.3092286
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1011
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/[StatSystem.Tests][StatsSystem.Tests][suite]
+    - id: 1002
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/AttributeTests/[StatSystem.Tests][StatsSystem.Tests.AttributeTests.Attribute_WhenModifierApplied_DoesNotExceedMaxValue]
+      name: Attribute_WhenModifierApplied_DoesNotExceedMaxValue
+      fullName: StatsSystem.Tests.AttributeTests.Attribute_WhenModifierApplied_DoesNotExceedMaxValue
+      resultStatus: 0
+      duration: 0.0570349
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NullReferenceException: Object reference not set to an instance of
+        an object
+
+'
+      stacktrace: 'StatsSystem.Nodes.StatNode.get_Value () (at Assets/StatsSystem/Runtime/Nodes/StatNode.cs:11)
+
+        Common.Nodes.MultiplyNode.get_Value
+        () (at Assets/Common/Scripts/Runtime/Nodes/MultiplyNode.cs:11)
+
+        Common.Nodes.ResultNode.get_Value
+        () (at Assets/Common/Scripts/Runtime/Nodes/ResultNode.cs:8)
+
+        StatsSystem.Stat.CalculateValue
+        () (at Assets/StatsSystem/Runtime/Stat.cs:50)
+
+        StatsSystem.Stat..ctor
+        (StatsSystem.StatDefinition definition) (at Assets/StatsSystem/Runtime/Stat.cs:22)
+
+        StatsSystem.StatsController.Initialize
+        () (at Assets/StatsSystem/Runtime/StatsController.cs:37)
+
+        StatsSystem.StatsController.Awake
+        () (at Assets/StatsSystem/Runtime/StatsController.cs:24)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.AttributeTests][suite]
+    - id: 1003
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/AttributeTests/[StatSystem.Tests][StatsSystem.Tests.AttributeTests.Attribute_WhenModifierApplied_DoesNotGoBelowZero]
+      name: Attribute_WhenModifierApplied_DoesNotGoBelowZero
+      fullName: StatsSystem.Tests.AttributeTests.Attribute_WhenModifierApplied_DoesNotGoBelowZero
+      resultStatus: 0
+      duration: 0.054581
+      messages: 'System.Collections.Generic.KeyNotFoundException : The given key
+        ''TestHealth'' was not present in the dictionary.'
+      output: 
+      stacktrace: "  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item
+        (TKey key) [0x0001e] in <47ab72e0328040438980f9c23608e1ec>:0 \r\n  at StatsSystem.Tests.AttributeTests+<Attribute_WhenModifierApplied_DoesNotGoBelowZero>d__2.MoveNext
+        () [0x00033] in C:\\Unity Projects\\RPG-Character-Systems\\Assets\\StatsSystem\\Tests\\PlayModeTests\\AttributeTests.cs:45
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\\Unity Projects\\RPG-Character-Systems\\Library\\PackageCache\\com.unity.test-framework@1.1.29\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.AttributeTests][suite]
+    - id: 1009
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/AttributeTests/[StatSystem.Tests][StatsSystem.Tests.AttributeTests.Attribute_WhenTakeDamage_DamageReducedByDefense]
+      name: Attribute_WhenTakeDamage_DamageReducedByDefense
+      fullName: StatsSystem.Tests.AttributeTests.Attribute_WhenTakeDamage_DamageReducedByDefense
+      resultStatus: 0
+      duration: 0.2390464
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.AttributeTests][suite]
+    - id: 1009
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.CharacterProgressDisplayTests][suite]
+      name: CharacterProgressDisplayTests
+      fullName: StatsSystem.Tests.CharacterProgressDisplayTests
+      resultStatus: 0
+      duration: 0.2784649
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1033
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/[StatSystem.Tests][StatsSystem.Tests][suite]
+    - id: 1011
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/CharacterProgressDisplayTests/[StatSystem.Tests][StatsSystem.Tests.CharacterProgressDisplayTests.Test01_text_refreshed_when_get_experience]
+      name: Test01_text_refreshed_when_get_experience
+      fullName: StatsSystem.Tests.CharacterProgressDisplayTests.Test01_text_refreshed_when_get_experience
+      resultStatus: 0
+      duration: 0.1773317
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.CharacterProgressDisplayTests][suite]
+    - id: 1010
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/CharacterProgressDisplayTests/[StatSystem.Tests][StatsSystem.Tests.CharacterProgressDisplayTests.Test02_Text_refresh_when_level_up]
+      name: Test02_Text_refresh_when_level_up
+      fullName: StatsSystem.Tests.CharacterProgressDisplayTests.Test02_Text_refresh_when_level_up
+      resultStatus: 0
+      duration: 0.0255982
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.CharacterProgressDisplayTests][suite]
+    - id: 1012
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/CharacterProgressDisplayTests/[StatSystem.Tests][StatsSystem.Tests.CharacterProgressDisplayTests.Test03_upadate_progress_bar_state]
+      name: Test03_upadate_progress_bar_state
+      fullName: StatsSystem.Tests.CharacterProgressDisplayTests.Test03_upadate_progress_bar_state
+      resultStatus: 0
+      duration: 0.0303035
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.CharacterProgressDisplayTests][suite]
+    - id: 1009
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.CharacterStatsControllerTests][suite]
+      name: CharacterStatsControllerTests
+      fullName: StatsSystem.Tests.CharacterStatsControllerTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1019
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/[StatSystem.Tests][StatsSystem.Tests][suite]
+    - id: 1010
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/CharacterStatsControllerTests/[StatSystem.Tests][StatsSystem.Tests.CharacterStatsControllerTests.PlayerStatController_WhenLevelUp_GainStatPoints]
+      name: PlayerStatController_WhenLevelUp_GainStatPoints
+      fullName: StatsSystem.Tests.CharacterStatsControllerTests.PlayerStatController_WhenLevelUp_GainStatPoints
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.CharacterStatsControllerTests][suite]
+    - id: 1004
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.PrimaryStatTests][suite]
+      name: PrimaryStatTests
+      fullName: StatsSystem.Tests.PrimaryStatTests
+      resultStatus: 0
+      duration: 0.0429437
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1011
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/[StatSystem.Tests][StatsSystem.Tests][suite]
+    - id: 1005
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/PrimaryStatTests/[StatSystem.Tests][StatsSystem.Tests.PrimaryStatTests.Stat_WhenAddCalled_ChangesBaseValue]
+      name: Stat_WhenAddCalled_ChangesBaseValue
+      fullName: StatsSystem.Tests.PrimaryStatTests.Stat_WhenAddCalled_ChangesBaseValue
+      resultStatus: 0
+      duration: 0.0380208
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NullReferenceException: Object reference not set to an instance of
+        an object
+
+'
+      stacktrace: 'StatsSystem.Nodes.StatNode.get_Value () (at Assets/StatsSystem/Runtime/Nodes/StatNode.cs:11)
+
+        Common.Nodes.MultiplyNode.get_Value
+        () (at Assets/Common/Scripts/Runtime/Nodes/MultiplyNode.cs:11)
+
+        Common.Nodes.ResultNode.get_Value
+        () (at Assets/Common/Scripts/Runtime/Nodes/ResultNode.cs:8)
+
+        StatsSystem.Stat.CalculateValue
+        () (at Assets/StatsSystem/Runtime/Stat.cs:50)
+
+        StatsSystem.Stat..ctor
+        (StatsSystem.StatDefinition definition) (at Assets/StatsSystem/Runtime/Stat.cs:22)
+
+        StatsSystem.StatsController.Initialize
+        () (at Assets/StatsSystem/Runtime/StatsController.cs:37)
+
+        StatsSystem.StatsController.Awake
+        () (at Assets/StatsSystem/Runtime/StatsController.cs:24)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.PrimaryStatTests][suite]
+    - id: 1013
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+      name: StatsUITests
+      fullName: StatsSystem.Tests.StatsUITests
+      resultStatus: 0
+      duration: 0.3607241
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1027
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/[StatSystem.Tests][StatsSystem.Tests][suite]
+    - id: 1014
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatsUITests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests.Test01_base_value_equal_one]
+      name: Test01_base_value_equal_one
+      fullName: StatsSystem.Tests.StatsUITests.Test01_base_value_equal_one
+      resultStatus: 0
+      duration: 0.169987
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+    - id: 1014
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatsUITests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests.Test02_Add_button_increment_base_value_by_one]
+      name: Test02_Add_button_increment_base_value_by_one
+      fullName: StatsSystem.Tests.StatsUITests.Test02_Add_button_increment_base_value_by_one
+      resultStatus: 0
+      duration: 0.0272121
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+    - id: 1016
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatsUITests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests.Test03_Decreasing_stat_points_value_when_primary_stat_added]
+      name: Test03_Decreasing_stat_points_value_when_primary_stat_added
+      fullName: StatsSystem.Tests.StatsUITests.Test03_Decreasing_stat_points_value_when_primary_stat_added
+      resultStatus: 0
+      duration: 0.0273952
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+    - id: 1017
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatsUITests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests.Test04_Add_buttons_disabaled_when_zero_stat_points]
+      name: Test04_Add_buttons_disabaled_when_zero_stat_points
+      fullName: StatsSystem.Tests.StatsUITests.Test04_Add_buttons_disabaled_when_zero_stat_points
+      resultStatus: 0
+      duration: 0.0250314
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+    - id: 1018
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatsUITests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests.Test05_Refresh_text_when_stat_changed]
+      name: Test05_Refresh_text_when_stat_changed
+      fullName: StatsSystem.Tests.StatsUITests.Test05_Refresh_text_when_stat_changed
+      resultStatus: 0
+      duration: 0.0212576
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+    - id: 1019
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatsUITests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests.Test06_Add_button_disabled_when_stat_capacity_reached]
+      name: Test06_Add_button_disabled_when_stat_capacity_reached
+      fullName: StatsSystem.Tests.StatsUITests.Test06_Add_button_disabled_when_stat_capacity_reached
+      resultStatus: 0
+      duration: 0.0104931
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+    - id: 1020
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatsUITests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests.Test07_Text_refreshed_when_level_up]
+      name: Test07_Text_refreshed_when_level_up
+      fullName: StatsSystem.Tests.StatsUITests.Test07_Text_refreshed_when_level_up
+      resultStatus: 0
+      duration: 0.011517
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+    - id: 1021
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatsUITests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests.Test08_Text_refreshed_when_experience_points_added]
+      name: Test08_Text_refreshed_when_experience_points_added
+      fullName: StatsSystem.Tests.StatsUITests.Test08_Text_refreshed_when_experience_points_added
+      resultStatus: 0
+      duration: 0.0122804
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatsUITests][suite]
+    - id: 1006
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatTests][suite]
+      name: StatTests
+      fullName: StatsSystem.Tests.StatTests
+      resultStatus: 0
+      duration: 0.1133593
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1011
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/[StatSystem.Tests][StatsSystem.Tests][suite]
+    - id: 1007
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatTests/[StatSystem.Tests][StatsSystem.Tests.StatTests.Stat_WhenModifierApplied_ChangesValue]
+      name: Stat_WhenModifierApplied_ChangesValue
+      fullName: StatsSystem.Tests.StatTests.Stat_WhenModifierApplied_ChangesValue
+      resultStatus: 0
+      duration: 0.0448371
+      messages: 'Unhandled log message: ''[Exception] NullReferenceException: Object
+        reference not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NullReferenceException: Object reference not set to an instance of
+        an object
+
+'
+      stacktrace: 'StatsSystem.Nodes.StatNode.get_Value () (at Assets/StatsSystem/Runtime/Nodes/StatNode.cs:11)
+
+        Common.Nodes.MultiplyNode.get_Value
+        () (at Assets/Common/Scripts/Runtime/Nodes/MultiplyNode.cs:11)
+
+        Common.Nodes.ResultNode.get_Value
+        () (at Assets/Common/Scripts/Runtime/Nodes/ResultNode.cs:8)
+
+        StatsSystem.Stat.CalculateValue
+        () (at Assets/StatsSystem/Runtime/Stat.cs:50)
+
+        StatsSystem.Stat..ctor
+        (StatsSystem.StatDefinition definition) (at Assets/StatsSystem/Runtime/Stat.cs:22)
+
+        StatsSystem.StatsController.Initialize
+        () (at Assets/StatsSystem/Runtime/StatsController.cs:37)
+
+        StatsSystem.StatsController.Awake
+        () (at Assets/StatsSystem/Runtime/StatsController.cs:24)
+
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatTests][suite]
+    - id: 1008
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatTests/[StatSystem.Tests][StatsSystem.Tests.StatTests.Stat_WhenModifierApplied_DoesNotExceedCap]
+      name: Stat_WhenModifierApplied_DoesNotExceedCap
+      fullName: StatsSystem.Tests.StatTests.Stat_WhenModifierApplied_DoesNotExceedCap
+      resultStatus: 0
+      duration: 0.0263982
+      messages: 'System.Collections.Generic.KeyNotFoundException : The given key
+        ''TestAttackSpeed'' was not present in the dictionary.'
+      output: 
+      stacktrace: "  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item
+        (TKey key) [0x0001e] in <47ab72e0328040438980f9c23608e1ec>:0 \r\n  at StatsSystem.Tests.StatTests+<Stat_WhenModifierApplied_DoesNotExceedCap>d__2.MoveNext
+        () [0x00033] in C:\\Unity Projects\\RPG-Character-Systems\\Assets\\StatsSystem\\Tests\\PlayModeTests\\StatTests.cs:41
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\\Unity Projects\\RPG-Character-Systems\\Library\\PackageCache\\com.unity.test-framework@1.1.29\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatTests][suite]
+    - id: 1009
+      uniqueId: StatSystem.Tests.dll/StatsSystem/Tests/StatTests/[StatSystem.Tests][StatsSystem.Tests.StatTests.Stat_WhenStrengthIncreased_UpdatePhysicalAttack]
+      name: Stat_WhenStrengthIncreased_UpdatePhysicalAttack
+      fullName: StatsSystem.Tests.StatTests.Stat_WhenStrengthIncreased_UpdatePhysicalAttack
+      resultStatus: 0
+      duration: 0.0121048
+      messages: 'System.Collections.Generic.KeyNotFoundException : The given key
+        ''TestStrength'' was not present in the dictionary.'
+      output: 
+      stacktrace: "  at System.Collections.Generic.Dictionary`2[TKey,TValue].get_Item
+        (TKey key) [0x0001e] in <47ab72e0328040438980f9c23608e1ec>:0 \r\n  at StatsSystem.Tests.StatTests+<Stat_WhenStrengthIncreased_UpdatePhysicalAttack>d__3.MoveNext
+        () [0x00033] in C:\\Unity Projects\\RPG-Character-Systems\\Assets\\StatsSystem\\Tests\\PlayModeTests\\StatTests.cs:59
+        \r\n  at UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0003a]
+        in C:\\Unity Projects\\RPG-Character-Systems\\Library\\PackageCache\\com.unity.test-framework@1.1.29\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1006
+      parentUniqueId: StatSystem.Tests.dll/StatsSystem/Tests/[StatSystem.Tests][StatsSystem.Tests.StatTests][suite]
+    m_ResultText: 
+    m_ResultStacktrace: 'at AbilitySystem.Tests.AbilitiesUITests+<AbilitiesUI_WhenAbilityLevelChanged_UpdatesLevelText>d__11.MoveNext
+      () [0x000d0] in C:\Unity Projects\RPG-Character-Systems\Assets\AbilitySystem\Tests\Scripts\PlaymodeTests\AbilitiesUITests.cs:100
+
+      at
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
+      C:\Unity Projects\RPG-Character-Systems\Library\PackageCache\com.unity.test-framework@1.1.29\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
+
+'
+    m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      m_LastClickedID: 0
-      m_ExpandedIDs: 42fbffff
+      m_SelectedIDs: 03868294
+      m_LastClickedID: -1803385341
+      m_ExpandedIDs: 9d4464819448dd8388ee2987dc223f88549daf90f68c8d9291a8619506a19c95047580a49a0ad7cb561600cfae81e5d4b1ed3dd5590616d6f0060cd79fdc7fec910cd8f327f6d40ba6e4e20c5ffff112d0f86b14a4d6191635e5e21ec0c05835ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name:
-        m_OriginalName:
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -494,14 +1877,306 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 0}
-      m_SearchString:
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 19}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[RPG-Character-Systems][suite]'
+      name: RPG-Character-Systems
+      fullName: RPG-Character-Systems
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: a4d61916ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 56
+    y: 441
+    width: 234
+    height: 609
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/CombatSystem/Scripts/Runtime
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 0
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/Game/ScriptableObjects
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Unity Projects\RPG-Character-Systems
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: a04b0000
+    m_LastClickedID: 19360
+    m_ExpandedIDs: 00000000fa4c00005e4d0000844d0000884d00008c4d0000904d0000944d0000d24d000000520000025200000452000006520000085200000a5200000c5200000e52000010520000125200001452000016520000185200001a5200001c5200001e52000020520000225200002452000026520000285200002a5200002c5200002e52000030520000325200003452000036520000385200003a5200003c5200003e52000040520000425200004452000046520000485200004a5200004c5200004e52000050520000525200005452000056520000585200005a5200005c5200005e52000060520000625200006452000066520000685200006a5200006c5200006e52000070520000725200007452000076520000785200007a5200007c5200007e52000080520000825200008452000086520000885200008a5200008c5200008e52000090520000925200009452000096520000985200009a5200009c5200009e520000a0520000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000fa4c00005e4d0000844d0000884d00008c4d0000904d0000944d0000984d0000d24d00009451000000520000025200000452000006520000085200000a5200000c5200000e52000010520000125200001452000016520000185200001c52000020520000225200002452000026520000285200002a5200002c5200002e520000305200003252000036520000385200003c5200003e520000425200004c5200004e520000505200005452000056520000585200005a5200005c5200005e52000060520000625200006452000066520000685200006a5200006c5200006e52000070520000725200007452000076520000785200007c5200007e5200008252000086520000885200008a5200008c5200008e52000090520000925200009452000096520000985200009a5200009c5200009e520000a0520000ec520000f452000090530000765c0000785c00002a5d0000a65e000082610000f880000010870000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: ShotType
+      m_OriginalName: ShotType
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 35040
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 4}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000d68cffff
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 4}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 741
+    y: 140
+    width: 274
+    height: 910
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 342
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 56
+    y: 140
+    width: 234
+    height: 280
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: e0880000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 3afbffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 12}
+      m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -511,22 +2186,211 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
     m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
+    m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2477
-    y: 332.5
-    width: 691
-    height: 373
+    x: 291
+    y: 140
+    width: 448
+    height: 528
   m_ViewDataDictionary: {fileID: 0}
-  m_ShowContextualTools: 0
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -101, y: -26}
+      snapCorner: 3
+      id: Tool Settings
+      index: 0
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: -141, y: 149}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-grid-and-snap-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-scene-view-toolbar
+      index: 0
+      layout: 1
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+      id: unity-search-toolbar
+      index: 1
+      layout: 1
+    - dockPosition: 0
+      containerId: overlay-container--left
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: unity-transform-toolbar
+      index: 0
+      layout: 2
+    - dockPosition: 0
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 1
+      snapOffset: {x: 67.5, y: 5}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Orientation
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Light Settings
+      index: 0
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Camera
+      index: 1
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Constraints
+      index: 2
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Cloth Collisions
+      index: 3
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Navmesh Display
+      index: 4
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Agent Display
+      index: 5
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Obstacle Display
+      index: 6
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Occlusion Culling
+      index: 7
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Physics Debugger
+      index: 8
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Scene Visibility
+      index: 9
+      layout: 4
+    - dockPosition: 1
+      containerId: overlay-container--right
+      floating: 0
+      collapsed: 0
+      displayed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      id: Scene View/Particles
+      index: 10
+      layout: 4
   m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
@@ -537,9 +2401,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 1.0108212, y: 0.92106044, z: -0.11600065}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 1.0108212, y: 0.92106044, z: -0.11600065}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -549,13 +2413,14 @@ MonoBehaviour:
   m_DoValidateTrueMetals: 0
   m_ExposureSliderValue: 0
   m_SceneViewState:
+    m_AlwaysRefresh: 0
     showFog: 1
-    showMaterialUpdate: 0
     showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
     showVisualEffectGraphs: 1
+    m_FxEnabled: 1
   m_Grid:
     xGrid:
       m_Fade:
@@ -580,18 +2445,18 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Target: {x: 0, y: 0.99999887, z: 0, w: 0.0014999995}
     speed: 2
-    m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+    m_Value: {x: 0, y: 0.99999887, z: 0, w: 0.0014999995}
   m_Size:
-    m_Target: 10
+    m_Target: 2.1507587
     speed: 2
-    m_Value: 10
+    m_Value: 2.1507587
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -604,19 +2469,19 @@ MonoBehaviour:
     m_EasingEnabled: 1
     m_EasingDuration: 0.4
     m_AccelerationEnabled: 1
-    m_FieldOfView: 90
+    m_FieldOfViewHorizontalOrVertical: 60
     m_NearClip: 0.03
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
-  m_ReplacementString:
+  m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -626,32 +2491,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
     m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
+    m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 507
-    y: 94
-    width: 1532
-    height: 790
+    x: 4311
+    y: 73
+    width: 899
+    height: 537
   m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewsNames: []
-  m_SerializedViewsValues: []
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
   m_PlayModeViewName: GameView
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 640, y: 480}
+  m_TargetSize: {x: 899, y: 516}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
-  m_RenderIMGUI: 0
-  m_MaximizeOnPlay: 0
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -662,10 +2530,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -766
-    m_HBaseRangeMax: 766
-    m_VBaseRangeMin: -395
-    m_VBaseRangeMax: 395
+    m_HBaseRangeMin: -449.5
+    m_HBaseRangeMax: 449.5
+    m_VBaseRangeMin: -258
+    m_VBaseRangeMax: 258
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -674,7 +2542,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -682,30 +2550,30 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
-      width: 1532
-      height: 790
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 766, y: 395}
+      y: 21
+      width: 899
+      height: 516
+    m_Scale: {x: 1.092727, y: 1.092727}
+    m_Translation: {x: 452.0501, y: 244.13731}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -766
-      y: -395
-      width: 1532
-      height: 790
+      x: -413.6899
+      y: -223.42024
+      width: 822.7124
+      height: 472.21313
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1532, y: 790}
+  m_LastWindowPixelSize: {x: 899, y: 537}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -715,19 +2583,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
     m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip:
+    m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 291
+    y: 689
+    width: 448
+    height: 361
   m_ViewDataDictionary: {fileID: 0}
-
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
